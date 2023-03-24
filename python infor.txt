@@ -1,0 +1,12 @@
+import pandas as pd
+colum=["name","age","town"]
+name={"name":colum,"weigth":[12,34,56],"size":[10,40,60]}
+result=pd.DataFrame(name);
+imb =[]
+for i in range(len(result)):
+     show=result['weigth'][i] + (result['size'][i])
+     imb.append(show)
+result['new']=imb
+print(result)
+
+

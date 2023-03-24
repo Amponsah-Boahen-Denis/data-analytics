@@ -1,0 +1,40 @@
+Here are 50 of the most commonly used MySQL commands, which can be used to create, modify, and manage databases and tables:
+
+CREATE DATABASE database_name; - create a new database.
+USE database_name; - select a database to use.
+SHOW DATABASES; - show a list of all databases.
+DROP DATABASE database_name; - delete a database.
+CREATE TABLE table_name (column1 datatype, column2 datatype, ...); - create a new table.
+DESCRIBE table_name; or SHOW COLUMNS FROM table_name; - show the structure of a table.
+ALTER TABLE table_name ADD column_name datatype; - add a new column to a table.
+ALTER TABLE table_name MODIFY column_name datatype; - change the data type of a column.
+ALTER TABLE table_name DROP column_name; - delete a column from a table.
+SELECT * FROM table_name; - retrieve all data from a table.
+SELECT column1, column2, ... FROM table_name; - retrieve specific columns from a table.
+SELECT * FROM table_name WHERE condition; - retrieve data that meets a certain condition.
+INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...); - insert new data into a table.
+UPDATE table_name SET column_name = new_value WHERE condition; - update existing data in a table.
+DELETE FROM table_name WHERE condition; - delete data from a table.
+TRUNCATE TABLE table_name; - delete all data from a table.
+DROP TABLE table_name; - delete a table.
+CREATE INDEX index_name ON table_name (column_name); - create an index on a table.
+SHOW INDEX FROM table_name; - show all indexes on a table.
+SELECT COUNT(*) FROM table_name; - count the number of rows in a table.
+SELECT column_name, COUNT(*) FROM table_name GROUP BY column_name; - count the number of rows for each unique value in a column.
+SELECT MAX(column_name) FROM table_name; - find the maximum value in a column.
+SELECT MIN(column_name) FROM table_name; - find the minimum value in a column.
+SELECT AVG(column_name) FROM table_name; - calculate the average value of a column.
+SELECT SUM(column_name) FROM table_name; - calculate the sum of values in a column.
+SELECT column_name FROM table_name ORDER BY column_name ASC; - retrieve data in ascending order.
+SELECT column_name FROM table_name ORDER BY column_name DESC; - retrieve data in descending order.
+SELECT column_name FROM table_name LIMIT number_of_rows; - retrieve a specific number of rows from a table.
+SELECT column_name FROM table_name LIMIT starting_row, number_of_rows; - retrieve a specific range of rows from a table.
+SELECT DISTINCT column_name FROM table_name; - retrieve unique values from a column.
+SELECT column1, column2 FROM table1 JOIN table2 ON table1.column_name = table2.column_name; - retrieve data from two tables based on a common column.
+SELECT column_name FROM table_name WHERE column_name LIKE 'pattern'; - retrieve data that matches a pattern.
+SELECT column_name FROM table_name WHERE column_name BETWEEN value1 AND value2; - retrieve data
+
+
+
+
+V)k-fuN3&B8./U2
